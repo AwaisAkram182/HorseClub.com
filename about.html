@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="navbar">
+    <i id="menubar-icon" class="fa-solid fa-bars"></i>
+    <i id="backarrow-icon" class="fa-solid fa-arrow-left"></i>
+    
+        <img  id="logopic" src="logo.png">
+      <div class="nav-elements">
+        <a id="home" href="index.html"><h4>Home</h4></a>
+        <a id="abouttt" href="about.html"><h4>About</h4></a>
+        <a href="services.html"><h4>Services</h4></a>
+        <a  href="contacts.html"><h4>Contacts</h4></a>
+        <div id="awaisnumber">
+        <i id="phone" class="fa-solid fa-phone"></i>
+        <h4 id="number">+92-341-4611-957</h4>
+        </div>
+     </div>
+       </div>
+       <div class="menu">
+        <div class="menubar">
+            <i id="menubar-icon" class="fa-solid fa-bars"></i>
+        <i id="backarrow-icon" class="fa-solid fa-arrow-left"></i>
+    <div class="menubar-ele">
+            <a id="home" href="index.html"><h4>Home</h4></a>
+            <a href="about.html"><h4>About</h4></a>
+            <a href="services.html"><h4>Services</h4></a>
+            <a  href="contacts.html"><h4>Contacts</h4></a>
+        </div>
+        <script>let menubaricon=document.querySelector("#menubar-icon")
+          let backarrowicon=document.querySelector("#backarrow-icon");
+          let menuele=document.querySelector(".menubar-ele");
+          let menu=document.querySelector(".menu");
+          menubaricon.addEventListener("click",()=>{
+              menubaricon.style.display="none"  
+              backarrowicon.style.display="block";
+              menuele.style.display="block";
+              menu.style.backgroundColor = "white";
+          });
+          backarrowicon.addEventListener("click",()=>{
+              menubaricon.style.display="block"  
+              backarrowicon.style.display="none";
+              menuele.style.display="none";
+              menu.style.backgroundColor="transparent";
+          });</script>
+        
+        </div>
+        </div>
+                                  <!-- navbar end -->
+    <div class="mainpicsection">
+        <div id="pic1div">
+            <img id="pic1" src="aboutpage.jpeg" alt="">
+        </div>
+        <h1 id="Aboutt">About</h1>
+        </div>
+                                <!-- mainpic section ended -->
+    <div class="about1">
+        <div class="aboutcont-1">
+            <img id="pic13" src="pic13.jpeg" alt="">
+        </div>
+        <div class="aboutcont-2">
+            <h1>A Few Words About Us</h1>
+            <h3>We are the leading equestrian club providing everything necessary for horse riders & breeders.</h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa eget egestas purus viverra accumsan in nisl. Nisl purus in mollis nunc</h4>
+            <h4 id="subtxt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</h4>
+        </div>
+    </div>
+                      <!-- aboutsec ended -->
+    <div class="whatweoffer">
+        <h1>What We Offer</h1>
+        <div class="whatweoffer-icons">
+           <div class="nature">
+             <i id="nature-icon" class="fa-solid fa-leaf"></i>
+              <div id="nature-text">
+                <h2>Free Nature</h2>
+                <h3>Castus, camerarius mineraliss mechanice examinare de noster</h3>
+              </div>
+           </div>
+           <div class="building">
+            <i id="building-icon" class="fa-regular fa-building"></i>
+             <div id="building-text">
+               <h2>Private Lessons</h2>
+               <h3>Cum musa nocere, omnes  dignus varius.</h3>
+             </div>
+          </div>
+          <div class="user">
+            <i id="user-icon" class="fa-solid fa-user-group"></i>
+             <div id="user-text">
+               <h2>Weekly Lessons</h2>
+               <h3>Raptus, varius lixas diligenter desiderium de audax, pius.</h3>
+             </div>
+          </div>
+          <div class="message">
+            <i id="message-icon" class="fa-regular fa-message"></i>
+             <div id="message-text">
+               <h2>Jumper Lessons</h2>
+               <h3>Cum eleates ,esss omnes equisoes desiderium magnum.</h3>
+             </div>
+          </div>
+          <div class="gromming">
+            <i id="gromming-icon" class="fa-solid fa-burger"></i>
+             <div id="gromming-text">
+               <h2>Horse Gromming</h2>
+               <h3>Audax, nobilis xiphiass patienter locus de primus, ferox calcaria.</h3>
+             </div>
+          </div>
+          <div class="privaterides">
+            <i id="privaterides-icon" class="fa-solid fa-people-arrows"></i>
+             <div id="privaterides-text">
+               <h2>Group & Private Rides</h2>
+               <h3>Cum bulla favere, omnes glutenes imperium varius.</h3>
+             </div>
+          </div>
+        </div>
+    </div>
+                             <!-- what we offer ended -->
+     <div class="footer">
+        <div class="containor1">
+            <img  id="logopic2" src="logopic2.png">
+            <div id="cont1-text">
+              <p>HorseClub is the leading equestrian club in the USA. We provide facilites for horse riding pros and breeders as well as training classes for horse riders of all ages and skill levels.</p>
+              </div>
+              <div id="cont1-text2">
+              <h3>© 2024 HorseClub. All Rights Reserved.<br> Privacy Policy</h3>
+              </div>
+        </div>
+        <div class="containor2">
+            <h2>Subscribe & Stay Updated</h2>
+            <input id="input1" type="text" required placeholder="E-mail" >
+            <div class="cont2-subcont">
+              <div class="address">
+                <h3>Phone and address</h3>
+                <div id="loc">
+                    <i id="loc-icon" class="fa-solid fa-location-dot"></i>
+                    <h3>263-A Architect Society Johar Town 2024 , LAHORE</h3>
+                </div>
+                <div id="phonenumber">
+                    <i id="awaisnumber-icon" class="fa-solid fa-phone"></i>
+                    <h3 id="awaisnumber">+92-341-4611-957</h3>
+                    <div class="getsocial-links">
+                        <a  id="fblink" href="https://www.facebook.com/awais.manais.75" target="main">
+                            <i id="fblink-icon" class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a id="instalink" href="https://www.instagram.com/aws._.x36?igsh=ZGUzMzM3NWJiOQ==
+                        " target="main"><i id="instalink-icon" class="fa-brands fa-instagram"></i></a>
+                 </div>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>

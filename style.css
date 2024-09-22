@@ -1,0 +1,5639 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+ 
+.navbar{
+    height:80px;
+    width:100%;
+    display: flex;
+   align-items: center;
+   position: fixed;
+   z-index: 1000; 
+   background-color: #FFFFFF;
+}
+#icons{
+    display: flex;
+    display: none;
+}
+ 
+#home-icon{
+    border-color:transparent;
+}
+#logopic{
+    height:50px;
+   width:260px;
+   margin-left: 5vw;
+   cursor: pointer;
+}
+.nav-elements{
+    width:100vw;
+    display: flex;
+    padding-left: 19vw;
+    gap: 3.5vw;
+    color:#292929;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav-elements a{
+    text-decoration: none;
+    color: #292929;
+}
+.nav-elements h4{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-elements h4:hover{
+    border-bottom: 3px solid #FFB93A;
+}
+#awaisnumber{
+    display: flex;
+    gap:4px;
+}
+#number:hover{
+    border-bottom: none;
+    color: #FFB93A;
+}
+#phone{
+    font-size: 1.5rem;
+    color:#FFB93A;
+    margin-top: -2px;
+    margin-left: 1vw;
+}
+#number{
+    font-size: 1.4rem;
+    margin-top: -3px;
+    color:#292929;
+} 
+#home{
+    border-bottom: 3px solid #FFB93A;
+}
+#home:hover{
+    border: none;
+}
+                                  /* navbar ends */ 
+
+ .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -600px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.9rem;
+   margin-top: 80px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.7rem;
+    padding-top: 30px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.5rem;
+   width:650px;
+   margin-left: 15px;
+   padding-top: 30px;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+} 
+#pic1{
+    height:750px;
+    width:100%;
+}
+                                 /* mainpic ended */
+
+.whatweoffer {
+    width:100%;
+    height:800px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:27vw;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:27vw;
+}
+#pic3{
+    height:300px;
+    width:27vw;
+}
+#pic4{
+    height:300px;
+    width:27vw;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+
+#pic5{
+    height:432px;
+    width:100%;
+   background-size: auto;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    height:435px
+}
+.joinus h1{
+    margin-top: -330px;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 35px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 35px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+.prices-sec{
+    height:900px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 220px;
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:27vw;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+                      /* prices ended */
+.gallery{
+    height:950px;
+    width:100%;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#adjust{
+    height:250px;
+    width:23vw;
+    padding: 10px;
+    cursor: pointer;
+}
+                  /* gallery ended */
+#pic12{
+    height:505px;
+    width:100%;
+    background-size:auto;
+}
+.testimonels{
+    height:510px;
+}
+#testi-text{
+    margin-top: -390px;
+}
+#testi-text h1{
+    font-size: 3.4rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.3rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-top: 40px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:1200px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+#ourteam-text{
+    padding-top: 250px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.3rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  color: #7C7C7C;
+}
+.team-persons{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:370px; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+                                /* teams ended */
+ .footer {
+    height: 570px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logopic2 {
+    height: 60px;
+    width: 210px;
+    cursor: pointer;
+    padding-top:18px;
+    padding-right: 4.5vw;
+    position: relative;
+}
+.containor2 {
+    height: 550px;
+    width: 59vw;
+    margin-left: 120px;
+}
+.containor2 h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 120px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+#input1{
+    height:60px;
+    width:43vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border: none;
+    color:white;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:250px;
+    width:100%;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.8rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+.getsocial h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 28px;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    display: flex;
+    padding-top: 60px;
+    gap:20px;
+    margin-left: -200px;
+}
+#fblink{
+    height:50px;
+    width:50px;
+    background-color:#474444;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 13px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:50px;
+    width:50px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 13px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+}
+#cont1-text{
+    height:200px;
+    width:330px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #F5F5F5;
+    text-align: left; 
+    text-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 75px;
+    p{
+        font-family: "DM Serif Display", serif;
+    }
+}
+#cont1-text2{
+    font-weight: 100;
+    color: #F5F5F5;
+    text-align:left; 
+    text-wrap: wrap;
+    padding-left:75.5px;
+    padding-top: 1px;
+    h3{
+        font-family: "DM Serif Display", serif;
+    }
+}
+    .containor2 {
+        height: 550px;
+        width: 59vw;
+        margin-left: 150px;
+    }
+    #cont1-text{
+        height:200px;
+        width:330px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #F5F5F5;
+        text-align: left; 
+        text-wrap: wrap;
+        margin-top: 50px;
+        padding-left: 75px;
+        p{
+            font-family: "DM Serif Display", serif;
+        }
+    }
+    #loc h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+    }
+    .address h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+    
+
+}
+
+
+                      /* responsiive design */
+
+@media (min-width:320px)and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        overflow-x: hidden;
+    }
+    .navbar{
+        height:80px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       position: fixed;
+       z-index: 1000; 
+       background-color: #FFFFFF;
+    }
+    
+    #logopic{
+        height:50px;
+       width:200px;
+       margin-left: 15px;
+       cursor: pointer;
+    }
+    .nav-elements{
+        width:100vw;
+        display: flex;
+        padding-left: 11vw;
+        gap: 3.5vw;
+        color:#292929;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: none;
+    }
+    .nav-elements a{
+        text-decoration: none;
+        color: #292929;
+    }
+    .nav-elements h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .nav-elements h4:hover{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #awaisnumber{
+        display: flex;
+        gap:4px;
+    }
+    #number:hover{
+        border-bottom: none;
+        color: #FFB93A;
+    }
+    #phone{
+        font-size: 1.5rem;
+        color:#FFB93A;
+        margin-top: -2px;
+        margin-left: 1vw;
+    }
+    #number{
+        font-size: 1.4rem;
+        margin-top: -3px;
+        color:#292929;
+    } 
+    #home{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #home:hover{
+        border: none;
+    }
+                                      /* navbar ends */  
+                .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -640px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.5rem;
+   margin-top: 70px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.4rem;
+    padding-top: 20px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.4rem;
+   margin-left: 15px;
+   padding-top: 30px;
+   width:85vw;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+}
+#pic1{
+    height:750px;
+    width:100%;
+    object-fit: cover;
+}
+.whatweoffer {
+    width:100%;
+    height:1500px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:81vw;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:100%;
+}
+#pic3{
+    height:300px;
+    width:100%;
+}
+#pic4{
+    height:300px;
+    width:100%;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+                              #pic5{
+   height:430px;
+    width:100vw;
+    object-fit:cover;
+    overflow-y: hidden;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    overflow-y: hidden;
+    padding-top: -100px;
+}
+.joinus h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+                                  .prices-sec{
+    height:1850px;
+    width:100%;
+    background-color:#F5F5F5;
+    overflow-y: hidden;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 120px;
+}
+.catagories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px;
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:320px;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.gallery{
+    height:2450px;
+    width:100%;
+    overflow-y: hidden;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#adjust{
+    height:250px;
+    width:350px;
+    padding: 10px;
+    cursor: pointer;
+}
+                  /* gallery ended */
+#pic12{
+    height:500px;
+    width:100%;
+    object-fit: cover;
+}
+.testimonels{
+    overflow-y: hidden;
+}
+#testi-text{
+    margin-top: -420px;
+}
+#testi-text h1{
+    font-size: 3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+  br{
+    display: none;
+  }
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-bottom: 20px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:2000px;
+    width:100%;
+    background-color:#F5F5F5;
+
+}
+#ourteam-text{
+    padding-top: 250px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.3rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+    margin-top: -130px;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  color: #7C7C7C;
+  br{
+    display: none;
+  }
+}
+.team-persons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 80px;
+}
+#pic13,#pic14,#pic15{
+    height:390px;
+    width:100%;
+    object-fit: cover;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:85vw; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    position: relative;
+    overflow-y: hidden;
+}
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position:absolute;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 4px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 5px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width:100%;
+    position: absolute;
+    bottom: 110px;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 10;
+    padding-bottom: 10px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+} 
+                        /* ended */
+.footer {
+    height: 950px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+    flex-direction: column;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logopic2 {
+    height: 90px;
+    width: 200px;
+    cursor: pointer;
+    padding-top:88px;
+    padding-right: 250px;
+}
+#cont1-text{
+    height:300px;
+    width:100%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    text-align: left; 
+    padding-bottom: 20px;
+    overflow-y:hidden;
+    margin-right: 90px;
+    p{
+        font-family: "DM Serif Display", serif;
+        width:80vw;
+       margin-left: 35px;
+    }
+}
+#cont1-text2{
+    height: 150px;
+    width:100%;
+    overflow-y: hidden;
+    font-weight: 100;
+    color: #F5F5F5;
+    text-wrap: wrap;
+    margin-bottom: 120px;
+    margin-right: 20px;
+
+    h3{
+        font-family: "DM Serif Display", serif;
+        width:80vw;
+    }
+    br{
+        display: none;
+    }
+}
+
+.containor2 {
+    display: flex;
+   flex-wrap: wrap;
+   overflow-y: hidden;
+    width:80vw;
+margin-left:28px;
+    margin-top: -200px;
+}
+
+.containor2 h2 {
+    font-size: 1.2rem;
+    height:60px;
+    width: 80vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 130px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+
+#input1 {
+    height: 60px;
+    width: 78vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    margin-top: -5px;
+    border-radius: 8px; /* Use shorthand */
+    border: none;
+    color: white;
+    margin-left: 1px;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:300px;
+    width:90vw;
+    overflow-y: hidden;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+    background-color: rgb(22, 18, 122);
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.7rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+    width:70vw
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.4rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.35rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    padding-top: 70px;
+    gap:20px;
+    margin-left: -200px;
+}
+#fblink{
+    height:45px;
+    width:45px;
+    background-color:#474444;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+} 
+                             /* menubar */
+.menu{
+    height:100vh;
+    width:150px;
+    background-color:transparent;
+    overflow: hidden;
+    position: fixed;
+    
+}
+#menubar-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+#backarrow-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    display: none;
+    cursor: pointer;
+}
+.menubar-ele{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color:transparent;
+    font-family: "DM Serif Display", serif;
+    display: none;
+border: none;
+}
+.menubar-ele a{
+    text-decoration: none;
+    border: none;
+    color: #292929;
+    font-size: 1.3rem;
+}
+.menubar-ele h4:hover{
+    border-bottom: 3px solid #FFB93A;
+    border-width: 5px;
+}
+
+}
+ 
+                  /* 481 to 768 */
+
+@media (min-width:481px)and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        overflow-x: hidden;
+    }
+    .navbar{
+        height:80px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       position: fixed;
+       z-index: 1000; 
+       background-color: #FFFFFF;
+    }
+    
+    #logopic{
+        height:50px;
+       width:200px;
+       margin-left: 15px;
+       cursor: pointer;
+    }
+    .nav-elements{
+        width:100vw;
+        display: flex;
+        padding-left: 11vw;
+        gap: 3.5vw;
+        color:#292929;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: none;
+    }
+    .nav-elements a{
+        text-decoration: none;
+        color: #292929;
+    }
+    .nav-elements h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .nav-elements h4:hover{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #awaisnumber{
+        display: flex;
+        gap:4px;
+    }
+    #number:hover{
+        border-bottom: none;
+        color: #FFB93A;
+    }
+    #phone{
+        font-size: 1.5rem;
+        color:#FFB93A;
+        margin-top: -2px;
+        margin-left: 1vw;
+    }
+    #number{
+        font-size: 1.4rem;
+        margin-top: -3px;
+        color:#292929;
+    } 
+    #home{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #home:hover{
+        border: none;
+    }
+                                      /* navbar ends */  
+                .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -640px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.6rem;
+   margin-top: 70px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.5rem;
+    padding-top: 20px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.5rem;
+   margin-left: 15px;
+   padding-top: 30px;
+   width:90vw;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+}
+#pic1{
+    height:750px;
+    width:100%;
+    object-fit: cover;
+}
+.whatweoffer {
+    width:100%;
+    height:1500px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 130px;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:400px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:100%;
+}
+#pic3{
+    height:300px;
+    width:100%;
+}
+#pic4{
+    height:300px;
+    width:100%;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+                              #pic5{
+   height:470px;
+    width:100%;
+    object-fit:cover;
+    overflow-y: hidden;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    overflow-y: hidden;
+    padding-top: -100px;
+}
+.joinus h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+                                  .prices-sec{
+    height:1800px;
+    width:100%;
+    background-color:#F5F5F5;
+    overflow-y: hidden;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 120px;
+}
+.catagories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px;
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:320px;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.gallery{
+    height:2450px;
+    width:100%;
+    overflow-y: hidden;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#adjust{
+    height:250px;
+    width:350px;
+    padding: 10px;
+    cursor: pointer;
+}
+@media (min-width:580px)and (max-width:768px){
+    .gallery-pics{
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:5px;
+    
+    }
+    .gallery{
+        height:1650px;
+        width:100%;
+        overflow-y: hidden;
+    }
+    #adjust{
+        height:50vh;
+        width:44vw;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+                  /* gallery ended */
+#pic12{
+    height:500px;
+    width:100%;
+    object-fit: cover;
+}
+.testimonels{
+    overflow-y: hidden;
+}
+#testi-text{
+    margin-top: -420px;
+}
+#testi-text h1{
+    font-size: 3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+  br{
+    display: none;
+  }
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-bottom: 20px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:2000px;
+    width:100%;
+    background-color:#F5F5F5;
+
+}
+#ourteam-text{
+    padding-top: 250px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.3rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+    margin-top: -130px;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  color: #7C7C7C;
+  br{
+    display: none;
+  }
+}
+.team-persons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 80px;
+}
+#pic13,#pic14,#pic15{
+    height:390px;
+    width:100%;
+    object-fit: cover;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:405px; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    position: relative;
+    overflow-y: hidden;
+}
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position:absolute;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 4px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 5px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width:100%;
+    position: absolute;
+    bottom: 110px;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 10;
+    padding-bottom: 10px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+} 
+                        /* ended */
+.footer {
+    height: 950px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+    flex-direction: column;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logopic2 {
+    height: 120px;
+    width: 200px;
+    cursor: pointer;
+    padding-top:88px;
+    padding-right: 200px;
+}
+#cont1-text{
+    height:300px;
+    width:100%;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #F5F5F5;
+    text-align: left; 
+    padding-bottom: 20px;
+    overflow-y:hidden;
+    margin-right: 40px;
+    p{
+        font-family: "DM Serif Display", serif;
+        width:68vw;
+       margin-left: 35px;
+    }
+}
+#cont1-text2{
+    height: 150px;
+    width:100%;
+    overflow-y: hidden;
+    font-weight: 100;
+    color: #F5F5F5;
+    text-wrap: wrap;
+    margin-bottom: 120px;
+    margin-left: 30px;
+
+    h3{
+        font-family: "DM Serif Display", serif;
+        width:65vw;
+        font-size: 1.25rem;
+    }
+    br{
+        display: none;
+    }
+}
+
+.containor2 {
+    display: flex;
+   flex-wrap: wrap;
+   overflow-y: hidden;
+    width:80vw;
+margin-left:52px;
+    margin-top: -200px;
+}
+
+.containor2 h2 {
+    font-size: 1.3rem;
+    height:60px;
+    width: 80vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 130px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+
+#input1 {
+    height: 60px;
+    width: 78vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.4rem;
+    margin-top: -5px;
+    border-radius: 8px; /* Use shorthand */
+    border: none;
+    color: white;
+    margin-left: 1px;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:300px;
+    width:90vw;
+    overflow-y: hidden;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+    background-color: rgb(22, 18, 122);
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.75rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+    width:62vw
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    padding-top: 70px;
+    gap:20px;
+    margin-left: -200px;
+}
+#fblink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+} 
+
+                             /* menubar */
+.menu{
+    height:100vh;
+    width:150px;
+    background-color:transparent;
+    overflow: hidden;
+    position: fixed;
+}
+#menubar-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+#backarrow-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    display: none;
+    cursor: pointer;
+}
+.menubar-ele{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color:transparent;
+    font-family: "DM Serif Display", serif;
+    display: none;
+}
+.menubar-ele a{
+    text-decoration: none;
+    border: none;
+    color: #292929;
+    font-size: 1.3rem;
+}
+.menubar-ele h4:hover{
+    border-bottom: 3px solid #FFB93A;
+    border-width: 5px;
+}
+
+}
+                    /* 768 to 1024px */
+
+@media (min-width:769px) and (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        overflow-x: hidden;
+    }
+    .navbar{
+        height:80px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       position: fixed;
+       z-index: 1000; 
+       background-color: #FFFFFF;
+    }
+    
+    #logopic{
+        height:50px;
+       width:200px;
+       margin-left: 15px;
+       cursor: pointer;
+    }
+    .nav-elements{
+        width:100vw;
+        display: flex;
+        padding-left: 11vw;
+        gap: 3.5vw;
+        color:#292929;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: 100px;
+        display: none;
+    }
+    .nav-elements a{
+        text-decoration: none;
+        color: #292929;
+    }
+    .nav-elements h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .nav-elements h4:hover{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #awaisnumber{
+        display: flex;
+        gap:4px;
+    }
+    #number:hover{
+        border-bottom: none;
+        color: #FFB93A;
+    }
+    #phone{
+        font-size: 1.5rem;
+        color:#FFB93A;
+        margin-top: -2px;
+        margin-left: 1vw;
+    }
+    #number{
+        font-size: 1.4rem;
+        margin-top: -3px;
+        color:#292929;
+    } 
+    #home{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #home:hover{
+        border: none;
+    }
+                                      /* navbar ends */  
+                .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -640px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.7rem;
+   margin-top: 80px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.6rem;
+    padding-top: 30px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.5rem;
+   width:650px;
+   margin-left: 15px;
+   padding-top: 30px;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+}
+#pic1{
+    height:750px;
+    width:100%;
+    object-fit: cover;
+}
+.whatweoffer {
+    width:100%;
+    height:1500px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 130px;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:400px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:100%;
+}
+#pic3{
+    height:300px;
+    width:100%;
+}
+#pic4{
+    height:300px;
+    width:100%;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+                              #pic5{
+   height:470px;
+    width:100%;
+    object-fit:auto;
+    overflow-y: hidden;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    overflow-y: hidden;
+    padding-top: -100px;
+}
+.joinus h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 15px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+                                  .prices-sec{
+    height:1800px;
+    width:100%;
+    background-color:#F5F5F5;
+    overflow-y: hidden;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 120px;
+}
+.catagories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px;
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:320px;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.gallery{
+    height:1400px;
+    width:100%;
+    overflow-y: hidden;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#adjust{
+    height:250px;
+    width:350px;
+    padding: 10px;
+    cursor: pointer;
+}
+@media (min-width:870px)and (max-width:1023px){
+    .whatweoffer h1{
+        text-align: center;
+        padding-top: 130px;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-weight: 800;
+        font-family: "DM Serif Display", serif;
+    }
+    #picsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 70px;
+    }
+    #picsec2,#picsec3,#picsec4{
+        height:380px;
+        width:480px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+    }
+    #picsec2:hover,#picsec3:hover,#picsec4:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    }
+    #pic2{
+        height:300px;
+        width:100%;
+    }
+    #pic3{
+        height:300px;
+        width:100%;
+    }
+    #pic4{
+        height:300px;
+        width:100%;
+    }
+    #picsec2 h2, #picsec3 h2, #picsec4 h2 {
+        text-align: center;
+        padding-top: 15px;
+        font-family: "DM Serif Display", serif;
+    } 
+    .gallery{
+        height:1000px;
+        width:100%;
+        overflow-y: hidden;
+    }
+    .gallery h1{
+        font-family: " DM Serif Display", serif;
+        font-size: 3.1rem;
+        padding-top: 80px;
+        text-align: center;
+        color: #292929;
+        font-weight: 900;
+    }
+    .gallery-pics{
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #adjust{
+        height:220px;
+        width:260px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+                 /* gallery ended */
+#pic12{
+    height:500px;
+    width:100%;
+    object-fit: cover;
+}
+.testimonels{
+    overflow-y: hidden;
+}
+#testi-text{
+    margin-top: -420px;
+}
+#testi-text h1{
+    font-size: 3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+  width:80vw;
+  margin-left: 80px;
+  br{
+    display: none;
+  }
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-bottom: 20px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:2000px;
+    width:100%;
+    background-color:#F5F5F5;
+
+}
+#ourteam-text{
+    padding-top: 250px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.4rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+    margin-top: -130px;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  width:70vw;
+  margin-left:120px ;
+  color: #7C7C7C;
+  br{
+    display: none;
+  }
+}
+.team-persons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: 80px;
+}
+#pic13,#pic14,#pic15{
+    height:390px;
+    width:100%;
+    object-fit: cover;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:435px; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    position: relative;
+    overflow-y: hidden;
+}
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position:absolute;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 4px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    width:100%;
+    position: absolute;
+    bottom: 120px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 5px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width:100%;
+    position: absolute;
+    bottom: 110px;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 10;
+    padding-bottom: 10px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+} 
+                        /* ended */
+.footer {
+    height: 950px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+    flex-direction: column;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logopic2 {
+    height: 140px;
+    width: 200px;
+    cursor: pointer;
+    padding-top:88px;
+    padding-right: 100px;
+}
+#cont1-text{
+    height:300px;
+    width:100%;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #F5F5F5;
+    text-align: left; 
+    padding-bottom: 20px;
+    overflow-y:hidden;
+    margin-right: 40px;
+    p{
+        font-family: "DM Serif Display", serif;
+        width:40vw;
+        height:200px;
+       margin-left: 85px;
+    }
+}
+#cont1-text2{
+    height: 150px;
+    width:100%;
+    overflow-y: hidden;
+    font-weight: 100;
+    color: #F5F5F5;
+    text-wrap: wrap;
+    margin-bottom: 120px;
+    margin-left: 130px;
+
+    h3{
+        font-family: "DM Serif Display", serif;
+        width:40vw;
+        height:200px;
+        font-size: 1.25rem;
+    }
+    br{
+        display: none;
+    }
+}
+
+.containor2 {
+    display: flex;
+   flex-wrap: wrap;
+   overflow-y: hidden;
+    width:80vw;
+margin-left:100px;
+    margin-top: -200px;
+}
+
+.containor2 h2 {
+    font-size: 1.3rem;
+    height:60px;
+    width: 80vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 130px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+
+#input1 {
+    height: 60px;
+    width: 78vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.4rem;
+    margin-top: -5px;
+    border-radius: 8px; /* Use shorthand */
+    border: none;
+    color: white;
+    margin-left: 1px;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:300px;
+    width:90vw;
+    overflow-y: hidden;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+    background-color: rgb(22, 18, 122);
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.75rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+    width:62vw
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    padding-top: 70px;
+    gap:20px;
+    margin-left: -200px;
+}
+#fblink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+} 
+
+                             /* menubar */
+.menu{
+    height:100vh;
+    width:150px;
+    background-color:transparent;
+    overflow: hidden;
+    position: fixed;
+}
+#menubar-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+#backarrow-icon{
+    font-size: 2rem;
+    color: #292929;
+    margin-left: 5px;
+    display: none;
+    cursor: pointer;
+}
+.menubar-ele{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color:transparent;
+    font-family: "DM Serif Display", serif;
+    display: none;
+}
+.menubar-ele a{
+    text-decoration: none;
+    border: none;
+    color: #292929;
+    font-size: 1.3rem;
+}
+.menubar-ele h4:hover{
+    border-bottom: 3px solid #FFB93A;
+    border-width: 5px;
+}
+}
+                              /* 1025 to 1270 */
+
+
+
+@media (min-width:1025px)and (max-width:1240px){
+    .menu{
+        width:50px;
+        background-color:transparent;
+        overflow: hidden;
+        position: fixed;
+    }
+    #menubar-icon{
+        font-size: 2rem;
+        color:white;
+        margin-left: 5px;
+        cursor: pointer;
+    
+    }
+    #backarrow-icon{
+        font-size: 2rem;
+        color: white;
+        margin-left: 5px;
+        display: none;
+        cursor: pointer;
+    }
+    .menubar-ele{
+        margin-left: 3px;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color:transparent;
+        font-family: "DM Serif Display", serif;
+        display: none;
+    }
+    .menubar-ele a{
+        text-decoration: none;
+        border: none;
+        color: #292929;
+        font-size: 1.3rem;
+        display: none;
+    }
+    .menubar-ele h4:hover{
+        border-bottom: 3px solid #FFB93A;
+        border-width: 5px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        overflow-x: hidden;
+    }
+    .navbar{
+        height:80px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       position: fixed;
+       z-index: 1000; 
+       background-color: #FFFFFF;
+    }
+    
+    #logopic{
+        height:55px;
+       width:220px;
+       margin-left: 25px;
+       cursor: pointer;
+    }
+    .nav-elements{
+        width:100vw;
+        display: flex;
+        padding-left: 8vw;
+        gap: 3.5vw;
+        color:#292929;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    @media (min-width:1060px)and (max-width:1100px){
+        .nav-elements{
+            width:100vw;
+            display: flex;
+            padding-left: 9vw;
+            gap: 3.5vw;
+            color:#292929;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #logopic{
+            height:55px;
+           width:220px;
+           margin-left: 45px;
+           cursor: pointer;
+        }
+    }
+    
+    @media (min-width:1100px)and (max-width:1150px){
+        .nav-elements{
+            width:100vw;
+            display: flex;
+            padding-left: 10vw;
+            gap: 3.5vw;
+            color:#292929;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #logopic{
+            height:55px;
+           width:220px;
+           margin-left: 45px;
+           cursor: pointer;
+        }
+    }
+
+    @media (min-width:1150px)and (max-width:1200px){
+        .nav-elements{
+            width:100vw;
+            display: flex;
+            padding-left: 11vw;
+            gap: 3.5vw;
+            color:#292929;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #logopic{
+            height:55px;
+           width:220px;
+           margin-left: 55px;
+           cursor: pointer;
+        }
+        #testi-text p{
+            font-family: "Open Sans", sans-serif;
+            font-size:1.3rem;
+            line-height: 29px;
+            font-weight: 100;
+            letter-spacing: 0.01em;
+            text-align: center;
+            padding-top: 40px;
+            color: #FFFFFF;
+            br{
+                display: none;
+            }
+          }
+    }
+    @media (min-width:1200px)and (max-width:1240px){
+        .nav-elements{
+            width:100vw;
+            display: flex;
+            padding-left: 15vw;
+            gap: 3.5vw;
+            color:#292929;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #logopic{
+            height:55px;
+           width:240px;
+           margin-left: 55px;
+           cursor: pointer;
+        }
+    }
+    .nav-elements a{
+        text-decoration: none;
+        color: #292929;
+    }
+    .nav-elements h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .nav-elements h4:hover{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #awaisnumber{
+        display: flex;
+        gap:4px;
+    }
+    #number:hover{
+        border-bottom: none;
+        color: #FFB93A;
+    }
+    #phone{
+        font-size: 1.5rem;
+        color:#FFB93A;
+        margin-top: -2px;
+        margin-left: 1vw;
+    }
+    #number{
+        font-size: 1.4rem;
+        margin-top: -3px;
+        color:#292929;
+    } 
+    #home{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #home:hover{
+        border: none;
+    }
+                                      /* navbar ends */  
+                .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -600px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.9rem;
+   margin-top: 80px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.7rem;
+    padding-top: 30px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.5rem;
+   width:650px;
+   margin-left: 15px;
+   padding-top: 30px;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+} 
+                                 /* mainpic ended */
+.whatweoffer {
+    width:100%;
+    height:800px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:30vw;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:33vw;
+}
+#pic3{
+    height:300px;
+    width:33vw;
+}
+#pic4{
+    height:300px;
+    width:33vw;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+#pic5{
+    height:432px;
+    width:100%;
+   background-size: auto;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    height:435px
+}
+.joinus h1{
+    margin-top: -330px;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 35px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 35px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+
+.prices-sec{
+    height:850px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 170px;
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:29vw;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+                      /* prices ended */
+.gallery{
+    height:1050px;
+    width:100%;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#adjust{
+    height:250px;
+    width:30.5vw;
+    padding: 10px;
+    cursor: pointer;
+}
+                  /* gallery ended */
+#pic12{
+    height:505px;
+    width:100%;
+    background-size:auto;
+}
+.testimonels{
+    height:510px;
+}
+#testi-text{
+    margin-top: -390px;
+}
+#testi-text h1{
+    font-size: 3.4rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.3rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-top: 40px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:900px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+.team-persons img{
+    width:100%;
+    object-fit: fill;
+}
+#ourteam-text{
+    padding-top: 50px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.3rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  color: #7C7C7C;
+}
+.team-persons{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:30vw; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+@media (min-width:1025px)and (max-width:1070px){
+    .person1,.person2,.person3{
+        height:450px;
+        width:30vw; 
+        background-color:transparent;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    }
+}
+@media (min-width:1070px)and (max-width:1120px){
+    .person1,.person2,.person3{
+        height:470px;
+        width:30vw; 
+        background-color:transparent;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+    }
+}
+
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+                                /* teams ended */
+ .footer {
+    height: 570px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logopic2 {
+    height: 60px;
+    width: 210px;
+    cursor: pointer;
+    padding-top:18px;
+    padding-right: 4.5vw;
+    position: relative;
+}
+.containor2 {
+    height: 550px;
+    width: 59vw;
+    margin-left: 120px;
+}
+@media (min-width:1150px)and (max-width:1200px){
+    .containor2 {
+        height: 550px;
+        width: 59vw;
+        margin-left: 140px;
+    }
+}
+@media (min-width:1200px)and (max-width:1240px){
+    .containor2 {
+        height: 550px;
+        width: 59vw;
+        margin-left: 150px;
+    }
+    #cont1-text{
+        height:200px;
+        width:330px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #F5F5F5;
+        text-align: left; 
+        text-wrap: wrap;
+        margin-top: 50px;
+        padding-left: 75px;
+        p{
+            font-family: "DM Serif Display", serif;
+        }
+    }
+}
+.containor2 h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 120px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+#input1{
+    height:60px;
+    width:43vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border: none;
+    color:white;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:250px;
+    width:100%;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.7rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.4rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.35rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+.getsocial h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 28px;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    display: flex;
+    padding-top: 50px;
+    gap:20px;
+    margin-left: -190px;
+}
+#fblink{
+    height:45px;
+    width:45px;
+    background-color:#474444;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+}
+#cont1-text{
+    height:200px;
+    width:330px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #F5F5F5;
+    text-align: left; 
+    text-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 75px;
+    p{
+        font-family: "DM Serif Display", serif;
+    }
+}
+#cont1-text2{
+    font-weight: 100;
+    color: #F5F5F5;
+    text-align:left; 
+    text-wrap: wrap;
+    padding-left:75.5px;
+    padding-top: 1px;
+    h3{
+        font-family: "DM Serif Display", serif;
+    }
+}
+@media (min-width:1200px)and (max-width:1240px){
+    .containor2 {
+        height: 550px;
+        width: 59vw;
+        margin-left: 150px;
+    }
+    #cont1-text{
+        height:200px;
+        width:330px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #F5F5F5;
+        text-align: left; 
+        text-wrap: wrap;
+        margin-top: 50px;
+        padding-left: 75px;
+        p{
+            font-family: "DM Serif Display", serif;
+        }
+    }
+    #loc h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+    }
+    .address h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+    }
+
+}
+
+ 
+    
+}
+
+
+@media (min-width:1240px)and (max-width:1277px){
+    .menu{
+        width:50px;
+        background-color:transparent;
+        overflow: hidden;
+        position: fixed;
+    }
+    #menubar-icon{
+        font-size: 2rem;
+        color:white;
+        margin-left: 5px;
+        cursor: pointer;
+    
+    }
+    #backarrow-icon{
+        font-size: 2rem;
+        color: white;
+        margin-left: 5px;
+        display: none;
+        cursor: pointer;
+    }
+    .menubar-ele{
+        margin-left: 3px;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color:transparent;
+        font-family: "DM Serif Display", serif;
+        display: none;
+    }
+    .menubar-ele a{
+        text-decoration: none;
+        border: none;
+        color: #292929;
+        font-size: 1.3rem;
+        display: none;
+    }
+    .menubar-ele h4:hover{
+        border-bottom: 3px solid #FFB93A;
+        border-width: 5px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        overflow-x: hidden;
+    }
+    .navbar{
+        height:80px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       position: fixed;
+       z-index: 1000; 
+       background-color: #FFFFFF;
+    }
+    
+    #logopic{
+        height:55px;
+       width:220px;
+       margin-left: 25px;
+       cursor: pointer;
+    }
+    .nav-elements{
+        width:100vw;
+        display: flex;
+        padding-left: 8vw;
+        gap: 3.5vw;
+        color:#292929;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    @media (min-width:1241px)and (max-width:1277px){
+        .nav-elements{
+            width:100vw;
+            display: flex;
+            padding-left: 15vw;
+            gap: 3.5vw;
+            color:#292929;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #logopic{
+            height:55px;
+           width:230px;
+           margin-left: 55px;
+           cursor: pointer;
+        }
+    }
+    .nav-elements a{
+        text-decoration: none;
+        color: #292929;
+    }
+    .nav-elements h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .nav-elements h4:hover{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #awaisnumber{
+        display: flex;
+        gap:4px;
+    }
+    #number:hover{
+        border-bottom: none;
+        color: #FFB93A;
+    }
+    #phone{
+        font-size: 1.5rem;
+        color:#FFB93A;
+        margin-top: -2px;
+        margin-left: 1vw;
+    }
+    #number{
+        font-size: 1.4rem;
+        margin-top: -3px;
+        color:#292929;
+    } 
+    #home{
+        border-bottom: 3px solid #FFB93A;
+    }
+    #home:hover{
+        border: none;
+    }
+                                      /* navbar ends */  
+                .mainpicsection{
+    width:100%;
+    height:750px;
+    color:white;
+    overflow-y: hidden;
+}
+.mainpic-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    margin-top: -600px;
+}
+ .mainpic-description h3{
+   font-family: "DM Serif Display", serif;
+   font-size: 1.9rem;
+   margin-top: 80px;
+   text-align: center;
+} 
+#welcome{
+    font-size: 4.7rem;
+    padding-top: 30px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: white;
+}
+#extra{
+   font-family: "DM Serif Display", serif;
+   text-align:center;
+   font-weight: 100;
+   font-size: 1.5rem;
+   width:650px;
+   margin-left: 15px;
+   padding-top: 30px;
+   br{
+    display: none;
+   }
+}
+#btn1{
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #FFB93A;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#btn1:hover{
+    background-color:#FFFFFF;
+    color: black;
+} 
+                                 /* mainpic ended */
+.whatweoffer {
+    width:100%;
+    height:800px;
+    background-color:#F5F5F5;
+}
+.whatweoffer h1{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+}
+#picsection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+#picsec2,#picsec3,#picsec4{
+    height:380px;
+    width:30vw;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#picsec2:hover,#picsec3:hover,#picsec4:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#pic2{
+    height:300px;
+    width:33vw;
+}
+#pic3{
+    height:300px;
+    width:33vw;
+}
+#pic4{
+    height:300px;
+    width:33vw;
+}
+#picsec2 h2, #picsec3 h2, #picsec4 h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "DM Serif Display", serif;
+} 
+                              /* how it works ended */
+#pic5{
+    height:432px;
+    width:100%;
+   background-size: auto;
+}
+.joinus{
+    text-align: center;
+    color: #F5F5F5;
+    height:435px
+}
+.joinus h1{
+    margin-top: -330px;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+}
+#joinusdata{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 35px;
+}
+#btn2{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:180px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin-top: 35px;
+    border: 2px solid white;
+}
+#btn2:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}  
+                                  /* joinusended */
+
+.prices-sec{
+    height:850px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+.prices-sec h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 170px;
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap:30px
+}
+.beginner,.intermediate,.advanced{
+    height:480px; 
+    width:29vw;
+}
+.beginner h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.beginner h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.beginner h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.beginner li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn3center{
+    display: flex;
+    justify-content: center;
+}
+#btn3{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn3:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+.advanced h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.advanced h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.advanced h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.advanced li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn4center{
+    display: flex;
+    justify-content: center;
+}
+#btn4{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn4:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+} 
+.intermediate h3{
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFB93A;
+}
+.intermediate h5{
+    font-size: 1.7rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    padding-right: 105px;
+   margin-top: 20px;
+   color:#292929;
+}
+.intermediate h2{
+    font-size: 4.3rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-top: -43px;
+    padding-right: 10px;
+    color:#292929;
+}
+.intermediate li{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    list-style-position:inside;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 1vw;
+
+}
+#tick{
+    color: #FFB93A;
+    font-size: 1rem;
+    padding-left: 1vw;
+}
+#btn5center{
+    display: flex;
+    justify-content: center;
+}
+#btn5{
+    font-family: "Open Sans", sans-serif;
+    height:70px;
+    width:160px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#292929;
+    background-color: transparent;
+    margin-top: 25px;
+    border: 1px solid #292929;
+    position: absolute;
+}
+#btn5:hover{
+    background-color:#FFB93A;
+    color: black;
+    border: none;
+}
+                      /* prices ended */
+.gallery{
+    height:1050px;
+    width:100%;
+}
+.gallery h1{
+    font-family: " DM Serif Display", serif;
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    color: #292929;
+    font-weight: 900;
+}
+.gallery-pics{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#adjust{
+    height:250px;
+    width:30.5vw;
+    padding: 10px;
+    cursor: pointer;
+}
+                  /* gallery ended */
+#pic12{
+    height:505px;
+    width:100%;
+    background-size:auto;
+}
+.testimonels{
+    height:510px;
+}
+#testi-text{
+    margin-top: -390px;
+}
+#testi-text h1{
+    font-size: 3.4rem;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#testi-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size:1.3rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+#testi-text h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: #FFB93A;
+    padding-top: 40px;
+}
+                                     /* testimonels ended */
+.ourteam {
+    height:900px;
+    width:100%;
+    background-color:#F5F5F5;
+}
+.team-persons img{
+    width:100%;
+    object-fit: fill;
+}
+#ourteam-text{
+    padding-top: 50px;
+    text-align: center;
+}
+#ourteam-text h1{
+    font-size: 3.3rem;
+    font-family: "DM Serif Display", serif;
+    color: #292929;
+}
+#ourteam-text p{
+    font-family: "Open Sans", sans-serif;
+  font-size:1.1rem;
+  line-height: 29px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 20px;
+  color: #7C7C7C;
+}
+.team-persons{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+}
+.person1,.person2,.person3{
+    height:500px;
+    width:30vw; 
+    background-color:transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.421);
+}
+#person1-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb1,#insta1{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person1:hover #fb1,.person1:hover #insta1 {
+    display: block;
+}
+#insta1{
+    font-size: 2.6rem;
+}
+.person1 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person1 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person2-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb2,#insta2{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person2:hover #fb2,.person2:hover #insta2 {
+    display: block;
+}
+#insta2{
+    font-size: 2.6rem;
+}
+.person2 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person2 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+#person3-icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+#fb3,#insta3{
+    font-size: 2.4rem;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-top: -50px;
+    display: none;
+}
+.person3:hover #fb3,.person3:hover #insta3 {
+    display: block;
+}
+#insta3{
+    font-size: 2.6rem;
+}
+.person3 h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.person3 h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+                                /* teams ended */
+ .footer {
+    height: 570px;
+    width: 100%;
+    background-color: #474444;
+    display: flex;
+}
+
+.containor1 {
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logopic2 {
+    height: 60px;
+    width: 210px;
+    cursor: pointer;
+    padding-top:18px;
+    padding-right: 4.5vw;
+    position: relative;
+}
+.containor2 {
+    height: 550px;
+    width: 59vw;
+    margin-left: 120px;
+}
+.containor2 h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 120px;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+#input1{
+    height:60px;
+    width:43vw;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border: none;
+    color:white;
+    background-color: #5B5858;
+}
+.cont2-subcont{
+    height:276px;
+    width:95%;
+    display: flex;
+    gap:10px;
+    padding-top: 40px;
+}
+.address{
+    height:250px;
+    width:100%;
+}
+.address h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.links{
+    height:250px;
+    width:50%;
+}
+#loc{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#loc-icon{
+    color: #F5F5F5;
+    font-size: 1.7rem;
+    padding-left: 4px;
+}
+#loc h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+#phonenumber{
+    margin-top: 30px;
+    display: flex;
+    gap:10px;
+}
+#awaisnumber-icon{
+    color: #F5F5F5;
+    font-size: 1.4rem;
+    padding-left: 4px;
+}
+#awaisnumber{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.35rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+.getsocial h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-family: "DM Serif Display", serif;
+}
+.getsocial h4{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.15rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 28px;
+    color:#F5F5F5;
+}
+.getsocial-links{
+    display: flex;
+    padding-top: 50px;
+    gap:20px;
+    margin-left: -190px;
+}
+#fblink{
+    height:45px;
+    width:45px;
+    background-color:#474444;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#fblink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#instalink{
+    height:45px;
+    width:45px;
+    text-align: center;
+    border-radius: 50%;
+    border:1px solid #F5F5F5 ;
+}
+#instalink-icon{
+    font-size: 1.4rem;
+    padding-top: 11px;
+    color:#F5F5F5;
+}
+#fblink:hover,#instalink:hover{
+    background-color: #FFB93A;
+    i{
+        color: white;
+    }
+}
+#cont1-text{
+    height:200px;
+    width:330px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #F5F5F5;
+    text-align: left; 
+    text-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 75px;
+    p{
+        font-family: "DM Serif Display", serif;
+    }
+}
+#cont1-text2{
+    font-weight: 100;
+    color: #F5F5F5;
+    text-align:left; 
+    text-wrap: wrap;
+    padding-left:75.5px;
+    padding-top: 1px;
+    h3{
+        font-family: "DM Serif Display", serif;
+    }
+}
+    .containor2 {
+        height: 550px;
+        width: 59vw;
+        margin-left: 150px;
+    }
+    #cont1-text{
+        height:200px;
+        width:330px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #F5F5F5;
+        text-align: left; 
+        text-wrap: wrap;
+        margin-top: 50px;
+        padding-left: 75px;
+        p{
+            font-family: "DM Serif Display", serif;
+        }
+    }
+    #loc h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+    }
+    .address h3{
+        font-family: "DM Serif Display", serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color:#F5F5F5;
+
+
+}
+    
+}
+@media screen and (min-width: 1277px) {
+    .menu{
+        height:100vh;
+        width:150px;
+        background-color:transparent;
+        overflow: hidden;
+        position: fixed;
+        display: none;
+    }
+    #menubar-icon{
+        font-size: 2rem;
+        color: #292929;
+        margin-left: 5px;
+        cursor: pointer;
+    color: white;
+    }
+    #backarrow-icon{
+        font-size: 2rem;
+        color: #292929;
+        margin-left: 5px;
+        display: none;
+        cursor: pointer;
+        color: white;
+    }
+    .menubar-ele{
+        margin-left: 3px;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        margin-top: 50px;
+        cursor: pointer;
+        background-color:transparent;
+        font-family: "DM Serif Display", serif;
+    
+    }
+    .menubar-ele a{
+        text-decoration: none;
+        border: none;
+        color: #292929;
+        font-size: 1.3rem;
+    }
+    .menubar-ele h4:hover{
+        border-bottom: 3px solid #FFB93A;
+        border-width: 5px;
+    }
+}
+
+@media screen and (max-width: 1277px) {
+    .menu {
+        display: block;
+    }
+}
